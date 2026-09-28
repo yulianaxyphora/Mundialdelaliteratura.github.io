@@ -419,15 +419,41 @@ footer{
 }
 
 .lema{
-    margin-bottom:25px;
+    margin-bottom:12px;
+
     color:white;
 
     font-size:
-        clamp(22px,3vw,34px);
+        clamp(25px,3vw,36px);
 
     font-style:italic;
+    font-weight:bold;
+
     letter-spacing:2px;
+
     text-align:center;
+
+    text-shadow:
+        0 4px 18px rgba(0,0,0,0.65);
+}
+
+.sublema{
+    margin-top:0;
+    margin-bottom:28px;
+
+    color:var(--dorado-claro);
+
+    font-size:
+        clamp(16px,2vw,22px);
+
+    font-style:italic;
+
+    letter-spacing:1.5px;
+
+    text-align:center;
+
+    text-shadow:
+        0 3px 15px rgba(0,0,0,0.55);
 }
 
 .presentacion{
@@ -1624,7 +1650,12 @@ body > footer{
     }
 
     .lema{
-        font-size:20px;
+        font-size:25px;
+    }
+
+    .sublema{
+        font-size:16px;
+        margin-bottom:24px;
     }
 
     .encabezado-seccion h2{
